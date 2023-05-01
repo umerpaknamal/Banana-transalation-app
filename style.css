@@ -1,0 +1,86 @@
+.header {
+    background-color:  rgb(0, 0, 0);
+    padding: 10px 20px 10px 20px ;
+    height: auto
+  }
+  
+  #space{
+    padding: 1rem;
+  }
+  .header-title {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+
+body{
+    background-color: rgb(241, 194, 179);
+}
+
+
+#input-text {
+    color: black;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #F9A602;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    resize: none;
+  }
+  
+  /* Style the Translate button */
+  #btn-translate {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F9A602;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  #btn-translate:hover {
+    background-color: #FFC107;
+  }
+  
+  /* Style the output div */
+  #output {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+    min-height: 50px;
+    padding: 10px;
+    border: 2px solid #F9A602;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
